@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python app.py
+python metadata _sanitizer.py
 ```
 
 1. Click **Select Files** and choose one or more `.jpg`, `.png`, `.pdf`,
@@ -42,7 +42,7 @@ Originals are never modified or deleted.
 
 ```
 metadata_sanitizer/
-├── app.py              # CustomTkinter GUI + routing engine + stripping logic
+├── metadata _sanitizer.py              # CustomTkinter GUI + routing engine + stripping logic
 ├── requirements.txt    # customtkinter, pillow, pypdf, python-docx
 └── test_files/          # Drop sample files here to test with
 ```
